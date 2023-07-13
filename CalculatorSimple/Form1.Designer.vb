@@ -136,7 +136,7 @@ Partial Class Form1
 		Me.btnReset.Name = "btnReset"
 		Me.btnReset.Size = New System.Drawing.Size(75, 32)
 		Me.btnReset.TabIndex = 10
-		Me.btnReset.Text = "Reset"
+		Me.btnReset.Text = "Restart"
 		Me.btnReset.UseVisualStyleBackColor = True
 		'
 		'Form1
