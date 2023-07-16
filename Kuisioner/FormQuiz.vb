@@ -53,10 +53,10 @@
 
 		If (Not String.IsNullOrEmpty(name) Or Not String.IsNullOrEmpty(gender) Or Not String.IsNullOrEmpty(occupation) Or Not String.IsNullOrEmpty(skill)) Then
 
-			hasil = "Name: " & name & "\n"
-			hasil += "Gender: " & gender & "\n"
-			hasil += "Occupation: " & occupation & "\n"
-			hasil += "Programming Skills: " & skill & "\n"
+			hasil = "Name: " & name & vbCrLf
+			hasil &= "Gender: " & gender & vbCrLf
+			hasil &= "Occupation: " & occupation & vbCrLf
+			hasil &= "Programming Skills: " & skill & vbCrLf
 
 			lblResult.Visible = True
 			lblResult.Text = hasil
